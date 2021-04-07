@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         edtPhone = findViewById(R.id.edtPhone);
         edtEmail = findViewById(R.id.edtEmail);
         spGender= findViewById(R.id.spGender);
-
+        spinner();
     }
 
     public void save(View view) {
