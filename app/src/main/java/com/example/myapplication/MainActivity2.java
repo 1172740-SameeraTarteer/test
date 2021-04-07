@@ -18,7 +18,7 @@ public class MainActivity2 extends AppCompatActivity {
         String email=intent.getStringExtra("Email");
         String gender=intent.getStringExtra("Gender");
         TextView InformationSummary=findViewById(R.id.textView);
-        InformationSummary.setText("Name: "+name +"\n Phone number:"+phone +"\n Email-Address:"+email+
+        InformationSummary.setText("Information Summary:"+"\n Name: "+name +"\n Phone number:"+phone +"\n Email-Address:"+email+
                 "\n Gender:"+ gender);
 
 
